@@ -4,22 +4,29 @@ function challengeWedding(input){
     let womenCount = Number(input[1]);
     let freeTables = Number(input[2]);
     
-    let freePlaces = freeTables * 2;
-    let allPeople = menCount+womenCount;
+    let result = '';
+    let tablesIsOver = false;
 
-    let mens = 0;
-    let womens = 0;
-    
-
-    while (freePlaces !== 0){
-        
-        while(allPeople !== 0){
+        for (let man = 1; man <= menCount; man++){
             
-            
+            for(let woman = 1; woman <= womenCount; woman++){
 
+                freeTables -= 1;
+
+                result += `(${man} <-> ${woman}) `;
+
+                if(freeTables === 0){
+                    tablesIsOver = true;
+                    break;
+                }
+            }
+
+            if(tablesIsOver){
+                break;
+            }
         }
 
-    }
-    
-
+    console.log(result);
 }
+
+challengeWedding(['5', '8', '40'])
