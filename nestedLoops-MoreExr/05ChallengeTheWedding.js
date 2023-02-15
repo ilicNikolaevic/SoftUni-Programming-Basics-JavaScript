@@ -1,30 +1,30 @@
-function challengeWedding(input){
-    
+function challengeWedding(input) {
+
     let menCount = Number(input[0]);
     let womenCount = Number(input[1]);
     let freeTables = Number(input[2]);
-    
+
     let result = '';
     let tablesIsOver = false;
 
-        for (let man = 1; man <= menCount; man++){
-            
-            for(let woman = 1; woman <= womenCount; woman++){
+    for (let man = 1; man <= menCount; man++) {
 
-                freeTables -= 1;
+        for (let woman = 1; woman <= womenCount; woman++) {
 
-                result += `(${man} <-> ${woman}) `;
+            freeTables -= 1;
 
-                if(freeTables === 0){
-                    tablesIsOver = true;
-                    break;
-                }
-            }
+            result += `(${man} <-> ${woman}) `;
 
-            if(tablesIsOver){
+            if (freeTables === 0) {
+                tablesIsOver = true;
                 break;
             }
         }
+
+        if (tablesIsOver) {
+            break;
+        }
+    }
 
     console.log(result);
 }
