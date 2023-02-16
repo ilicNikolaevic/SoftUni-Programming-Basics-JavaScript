@@ -1,5 +1,7 @@
 # SoftUni-Programming-Basics-JavaScript
 
+<img width="100" alt="softuniLogo" src="https://user-images.githubusercontent.com/121745595/219448556-2c7c7f5a-c282-411b-9253-1b55fff353d7.png">
+
 The first course in JavaScript path. 
 
 Topics covered in the course:
