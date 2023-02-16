@@ -15,3 +15,8 @@ function squareOfStars(input) {
 }
 
 squareOfStars(['4'])
+
+// * * * *
+// * * * *
+// * * * *
+// * * * * 

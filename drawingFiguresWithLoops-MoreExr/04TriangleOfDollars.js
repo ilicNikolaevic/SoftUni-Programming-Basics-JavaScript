@@ -15,3 +15,7 @@ function triangleOfDollars(input) {
 }
 
 triangleOfDollars(['3']);
+
+// $ 
+// $ $ 
+// $ $ $ 

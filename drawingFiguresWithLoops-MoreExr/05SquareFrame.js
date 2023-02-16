@@ -35,3 +35,10 @@ function squareFrameAnother(input) {
 }
 
 squareFrameAnother(['6']);
+
+// + - - - - +
+// | - - - - |
+// | - - - - |
+// | - - - - |
+// | - - - - |
+// + - - - - +

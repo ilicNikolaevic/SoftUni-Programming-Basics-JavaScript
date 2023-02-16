@@ -15,3 +15,6 @@ function rectangleNxN(input) {
 }
 
 rectangleNxN(['2']);
+
+// **
+// **
