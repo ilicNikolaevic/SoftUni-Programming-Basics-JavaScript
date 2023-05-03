@@ -2,8 +2,7 @@
 
 <img width="100" alt="softuniLogo" src="https://user-images.githubusercontent.com/121745595/219448556-2c7c7f5a-c282-411b-9253-1b55fff353d7.png">
 
-
-The first course in JavaScript path. 
+"The "Programming Basics" course provides initial programming skills necessary for all technological specialties at the Software University. This includes writing basic level programming code, working with an integrated development environment (IDE), using variables and data, operators and expressions, working with the console (reading input data and printing results), using conditional statements (if, if-else) and loops (for, while, do-while)."
 
 Topics covered in the course:
 1. First steps in coding (data types, variables)
@@ -12,9 +11,5 @@ Topics covered in the course:
 4. For loop
 5. While loop
 6. Nested loops
-
-The tasks that we solved during lectures and exercises have been uploaded. All solutions here have received the maximum possible number of points in the evaluation system of SoftUni - Judge.
-
-My profile in Judge -> https://judge.softuni.org/Users/ilic.nikolaevic
 
 
